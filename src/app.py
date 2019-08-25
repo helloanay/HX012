@@ -63,7 +63,7 @@ def helper():
 			# Drawing the overlay on the face
 			cv2.drawContours(frame, [leftEyeHull], -1, (0, 255, 0), 1)
 			cv2.drawContours(frame, [rightEyeHull], -1, (0, 255, 0), 1)
-			cv2.drawContours(frame, [mouth], -1, (0, 255, 0), 1)
+			cv2.drawContours(frame, [mouth], -1, (255, 0, 0), 1)
 
 			# Comparing threshold value of Mouth Aspect Ratio (MAR)
 			if mar > mouthThresh:
