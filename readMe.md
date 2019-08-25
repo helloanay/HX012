@@ -16,13 +16,13 @@
 
 ### [Repository Link](https://github.com/rowhitswami/HX012)
 
-### Labels: Influence the Mass, Revolutionize the Smart-World and Enhance the Social-Norms
+### Tracks Used: Influence the Mass, Revolutionize the Smart-World and Enhance the Social-Norms
 
-### Scope
--	
--
--
-- 
+### Technology Used
+-  Python
+-  OpenCV
+-  Dlib
+-  Shape Predictor 68 Face Landmarks [Trained Model]
 
 
 ## Use Case for The Project
@@ -73,6 +73,27 @@
 </details>
 
 
+### To Get Started with the Project
+
+Clone the Repository
+``` python
+>>>  git clone https://github.com/rowhitswami/HX012/
+```
+Install Required Libraries
+``` python
+>>>  pip install -r requirements.txt
+```
+  
+Go to src folder
+``` python
+>>>  cd src
+```
+Execute app file
+``` python
+>>>  python app.py
+```
+
+
 
 ### Required Header Files
 ```py
@@ -106,22 +127,3 @@ def yawning(mouth):
 	return mar
 ```
 
-### To Get Started with the Project
-
-Clone the Repository
-``` python
->>>  git clone https://github.com/rowhitswami/HX012/
-```
-Install Required Libraries
-``` python
->>>  pip install -r requirements.txt
-```
-  
-Go to src folder
-``` python
->>>  cd src
-```
-Execute app file
-``` python
->>>  python app.py
-```
