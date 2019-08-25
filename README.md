@@ -54,16 +54,21 @@ def yawning(mouth):
 ```
 
 ### To Run the Project
+
+Clone the Repository
+``` python
+>>>  git clone https://github.com/rowhitswami/HX012/
 ```
-  Clone the Repository
-<$  git clone https://github.com/rowhitswami/HX012/
-
-  Install Required Libraries
-<$  pip install -r requirements.txt
+Install Required Libraries
+``` python
+>>>  pip install -r requirements.txt
+```
   
-  Go to src folder
-<$  cd src
-
-  Execute app file
-<$  python app.py
+Go to src folder
+``` python
+>>>  cd src
+```
+Execute app file
+``` python
+>>>  python app.py
 ```
