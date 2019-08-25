@@ -1,9 +1,9 @@
-## Project Name:  
+## Project Name:  Accident Prevention using OpenCV and Dlib
 
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-## Short Project Description:
+## Short Project Description: Accident Prevention by notifying on the smartphone about any mishappenings. 
 
 ## Team ID: HX012
 
@@ -14,34 +14,64 @@
 - Rohit Swami ([@rowhitswami](https://github.com/rowhitswami))
 - Mohd Shoaib Rayeen([@shoaibrayeen](https://github.com/shoaibrayeen))
 
-### [Demo Link]()
-
 ### [Repository Link](https://github.com/rowhitswami/HX012)
 
-### Labels: 
+### Labels: Influence the Mass, Revolutionize the Smart-World and Enhance the Social-Norms
+
+### Scope
+-	
+-
+-
+- 
 
 
 ## Use Case for The Project
--  **Use Case 1** - When It detects the face and eyes of the person, it does not notify to anyone.
+<details>
+<summary>Use Case 1</summary>
+
+```
+	When It detects the face and eyes of the person, it does not notify to anyone.
+```
+
 ##
 <img src="/Image/use-case-1.png">
-	
--  **Use Case 2** - When It detects the person yawning while driving, it notifies to everyone who gets access for the same.
+</details>	
+
+<details>
+<summary>Use Case 2</summary>
+
+```	
+	When It detects the person yawning while driving, it notifies to everyone who gets access for the same.
+```
+
 ##
 <img src="/Image/use-case-2.png">)
 ##
 <img src="/Image/Notify-2.png" width="400" height="650">)
+</details>
 
--  **Use Case 3** - When It detects the person sleeping while driving, it notifies to everyone who gets access for the same.
+<details>
+<summary>Use Case 3</summary>
+	
+	When It detects the person sleeping while driving, it notifies to everyone who gets access for the same.
+
 ##
 <img src="/Image/use-case-3.png">)
 ##
 <img src="/Image/Notify-1.png" width="400" height="650">)
--  **Use Case 4** - When It detects the person both sleeping and yawning while driving, it notifies to everyone who gets access for the same.
+</details>
+
+<details>
+<summary>Use Case 4</summary>
+	
+	When It detects the person both sleeping and yawning while driving, it notifies to everyone who gets access for the same.
+
 ##
 <img src="/Image/use-case-4.png">)
 ##
 <img src="/Image/Notify-2.png" width="400" height="650">)
+</details>
+
 
 
 ### Required Header Files
@@ -76,7 +106,7 @@ def yawning(mouth):
 	return mar
 ```
 
-### To Run the Project
+### To Get Started with the Project
 
 Clone the Repository
 ``` python
