@@ -1,4 +1,4 @@
-# Import necessary libraries
+# Import required libraries
 import os
 import imutils
 import dlib
